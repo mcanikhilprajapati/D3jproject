@@ -1,0 +1,80 @@
+/* CSS  for login, changepass, forgotpass, verifypass  */
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none!important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;
+    color: #333!important;
+}
+
+.login-window {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 460px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.loginHeader {
+    background-color: #e7e7e7;
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.loginForm {
+    padding: 40px 40px 20px 40px;
+    width: 100%;
+}
+
+.login-btn, .loginfield {
+    width: 100%;
+    margin-bottom: 15px!important;
+}
+
+.loginfield a {
+    font-size: 14px;
+}
+
+.loginfield label {
+    background-color: #fff;
+    padding: 0px 10px;
+}
+
+.login-btn {
+    background-color: #40bfc1!important;
+    margin-top: 15px!important;
+    padding: 15px 0px!important;
+    font-size: 20px!important;
+    color: #fff!important;
+    font-weight: normal!important;
+    font-family: 'Lato', sans-serif;
+}
+
+button.login-btn a {
+    color: #fff;
+    font-size: 20px;
+}
